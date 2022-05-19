@@ -109,7 +109,7 @@
     }),
     document
       .querySelector(".categories__item_title")
-      .addEventListener("click", function (e) {
+      .addEventListener("click", () => {
         document
           .querySelector(".categories__input")
           .classList.toggle("input-open"),
